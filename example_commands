@@ -1,0 +1,2 @@
+python face_align.py --src test_imgs --dst test_results --output_landmark_dir test_landmarks
+python paste_back.py --aligned_imgs test_results --original_imgs test_imgs --dst test_pastebacks --landmark_dir test_landmarks
